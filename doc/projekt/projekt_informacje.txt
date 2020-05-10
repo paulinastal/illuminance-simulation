@@ -1,0 +1,15 @@
+Wstêpne informacje i parametry modelu
+
+- Standardowa sala lekcyjna (55m2 do 62m2 dla 30 uczniów) -> nasz model 60m2 [1]
+- Polska Norma (PL-EN 12464-1) reguluj¹ca oœwietlenie miejsc pracy:
+	- minimalne wartoœci natê¿enia oœwietlenia -> 300 lx [1-2]
+	- natê¿enie oœwietlenia powinno byæ wysokie (500 lx) tam, gdzie wykonywane s¹ g³ównie "zadania wzrokowe", a wiêc czytanie i pisanie rêczne [1-2]
+	- pomieszczenie do nauki -> stosunek powierzchni okien do powierzchni pod³ogi powinien wynosiæ 1:4 do 1:5 -> nasz model 1:5 [1-2]
+	- uwzglêdnianie konserwacji przy projektowaniu i instalacji systemów oœwietlenia -> jak najd³u¿sze eksploatowanie opraw oœwietleniowych przy zachowaniu w³aœciwych parametrów œwiat³a -> lampy LED [2]
+
+Bibliografia
+[1] Jerzy Wójcik Architekt IARP, "Szko³y podstawowe,szko³y œrednie. Technologia obiektów", 28.10.2014
+[2] http://www.instalacjebudowlane.pl/9490-29-12421-oswietlenie-led-w-szkolach--normy-i-rozwiazania-praktyczne.html
+
+
+
