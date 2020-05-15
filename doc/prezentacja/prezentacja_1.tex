@@ -5,64 +5,123 @@
 \usepackage[top=1.5cm, bottom=2.0cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{indentfirst}
 \usepackage{enumerate}
+\usepackage{amssymb}
 
 
 
 \title{Symulacja natężenia światła}
 \author{Paulina Stal, Patrycja Marchwica}
-\date{8.04.2020}
+\date{15.05.2020}
 
 \begin{document}
-\maketitle
-
+	\maketitle
+	
 	\section{Wprowadzenie}
 	\label{sec:wprowadzenie}
 	
-	Celem symulacji będzie analiza natężenia oświetlenia w zamodelowanym pomieszczeniu. Do przeprowadzenia symulacji zostanie wykorzystany pakiet \emph{VI-Suite}, czyli zintegrowany zestaw narzędzi do analizy otoczenia, wykorzystujący wbudowane funkcje programu do modelowania 3D jakim jest \emph{Blender} oraz integrujący zewnętrzne aplikacje tj. \emph{Radiance}, które umożliwiają przeprowadzenie symulacji oświetlenia.
-
-	Pomiar natężenia światła, czyli gęstości strumienia świetlnego padającego na daną powierzchnię, którego jednostką w układzie SI jest luks [lx], zostanie wykonany w różnych miejscach zamodelowanego pomieszczenia. Otrzymane wyniki zostaną poddane analizie, mającej na celu określenie wpływu warunków pogodowych, konfiguracji opraw oświetleniowych oraz mocy świecenia opraw oświetleniowych na przebieg symulacji.  
-
+	Celem symulacji będzie analiza natężenia oświetlenia w zamodelowanym pomieszczeniu -- sali lekcyjnej. Do przeprowadzenia symulacji zostanie wykorzystany pakiet \emph{VI-Suite}, czyli zintegrowany zestaw narzędzi do analizy otoczenia, wykorzystujący wbudowane funkcje programu do modelowania 3D jakim jest \emph{Blender} oraz integrujący zewnętrzne aplikacje tj. \emph{Radiance}, które umożliwiają przeprowadzenie symulacji oświetlenia.
 	
-	\section{Przegląd literatury}
-	\label{sec:przeglad_literatury}
-		\begin{thebibliography}{7}
-			\bibitem{1}
-			D.Heim, A. Kujawski, \textit{Rozkład natężenia oświetlenia dziennego dla prostych struktur zabudowy}
-			\bibitem{2}
-			K. Błażejczyk et al., \textit{Seasonal and regional differences in lighting conditions and their influence on melatonin secretion}, Quaestiones Geographicae, 33(3), 2014, 17--25
-			\bibitem{3}
-			M. Ayoub, \textit{A review on light transport algorithms and simulation tools to model daylighting inside buildings}, Solar Energy, 198, 2020, 623--642
-			\bibitem{4}
-			L. Bellia, F. Fragliasso, \textit{Automated daylight-linked control systems performance with illuminance sensors for side-lit offices in the Mediterranean area}, Automation in Construction, 100 , 2019, 145--162
-			\bibitem{5}
-			R. Southall, F. Biljecki, \textit{The VI-Suite: a set of environmental analysis tools with geospatial data applications}, Open Geospatial Data, Software and Standards, 2017, 2--23
-			\bibitem{6}
-			\textit{Recommended Light Levels (Illuminance) for Outdoor and Indoor Venues}
-			\bibitem{7}
-			V. Logar, Z. Kristl, I. Skrjanc, \textit{Using a fuzzy black-box model to estimate the indoor illuminance in buildings}, Energy and Buildings, 70, 2014, 343--351
-			
-		\end{thebibliography}
+	Pomiar natężenia światła, czyli gęstości strumienia świetlnego padającego na daną powierzchnię, którego jednostką w układzie SI jest luks [lx], zostanie wykonany w różnych miejscach zamodelowanego pomieszczenia. Otrzymane wyniki zostaną poddane analizie, mającej na celu określenie wpływu warunków pogodowych, konfiguracji opraw oświetleniowych oraz mocy świecenia opraw oświetleniowych na przebieg symulacji.  
+	
+	\section{Parametry modelu}
+	\label{sec:parametry_modelu}
+	
+	\begin{itemize}
+		\item Model sali lekcyjnej
+		\begin{itemize}
+			\item Wymiary modelu sali lekcyjnej -- $6m$ x $10m$ x $2.5m$
+			\item Pole powierzchni podłogi -- $60m^2$
+			\item Wymiary ławek - $500mm$ x $1300mm$ x $40mm$
+			\item Wysokość ławek ($640mm$) i krzeseł ($38mm$) dostosowana do wzrostu ucznia -- $133-159cm$
+		\end{itemize}
+		\item Okna
+		\begin{itemize}
+			\item Stosunek powierzchni okien do powierzchni podłogi -- $1:5$
+			\item Wymiary okien -- $1m$ x $1.5m$ x $0.12m$
+			\item Odległość pomiędzy oknami -- $1.15m$
+			\item Odległość okna od podłogi -- $0.68m$
+			\item Okna znajdują się od wschodniej i zachodniej strony pomieszczenia
+		\end{itemize}
+		\item Oświetlenie
+		\begin{itemize}
+			\item Typ oświetlenia -- Oświetlenie LED natynkowe
+			\item Wymiary opraw oświetleniowych -- $620mm$ x $620mm$ x $66mm$
+			\item Temperatura barwowa -- $4000K$
+			\item Rozmieszczenie opraw oświetleniowych 1:
+			\begin{itemize}
+				\item 8 lamp -- w dwóch rzędach po 4 wzdłuż sali lekcyjnej
+				\item Odległość pomiędzy oprawami -- $1.13m$
+				\item Odległość pomiędzy oprawą a oknami -- $1.48m$
+				\item Odległość pomiędzy oprawą a ścianami północną i południową -- $1.43m$
+			\end{itemize}
+			\item Rozmieszczenie opraw oświetleniowych 2:
+			\begin{itemize}
+				\item
+			\end{itemize}
+		\end{itemize}		
+		
+	\end{itemize}
+	
 	
 	\section{Plan działania}
 	\label{sec:plan_dzialania}
-		\begin{enumerate}
-			\item Wykonanie modelu pomieszczenia 3D korzystając z programu \emph{Blender}.
-			\item Opracowanie modelu oprawy oświetleniowej.
-			\item Zastosowanie pakietu \emph{VI-Suite} do pomiaru oświetlenia, zwracając uwagę na:
-			\begin{itemize}
-				\item warunki pogodowe,
-				\item porę dnia,
-				\item konfigurację opraw oświetleniowych,
-				\item moc świecenia.
-   			\end{itemize}
-			\item Przedstawienie wyników pomiarów.
-			\item Porównanie rezultatów z rzeczywistymi badaniami.
-			\item Zapisanie wniosków.
-			\item Podsumowanie.
-		\end{enumerate}
+	\begin{enumerate}
+		\item Wykonanie modelu sali lekcyjnej przy użyciu programu \emph{Blender} \checkmark
+		\item Wykonanie modelu natynkowej oprawy oświetleniowej zgodnej ze specyfikacją, przy użyciu programu \emph{Blender} \checkmark
+		\item Wstępny dobór konfiguracji opraw oświetleniowych \checkmark
+		\item Nadanie parametrów/materiałów Vi-Suite obiektom biorącym udział w sumlacji \checkmark
+		\item Sporządzenie schematu w Node Edytorze \checkmark
+		\item Dobór parametrów przeprowadzanych symulacji \checkmark
+		\item Przeprowadzenie symulacji przy użyciu pakietu \emph{VI-Suite} i zewnętrznej aplikacji \emph{Radiance} dla różnych konfiguracji wybranych parametrów:
+		
+		
+		\begin{table}[h]
+			\begin{center}
+				\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+					\cline{4-15}
+					\multicolumn{3}{c|}{}&\multicolumn{6}{c|}{Z oświetleniem (1)} & \multicolumn{6}{c|}{Z oświetleniem (2)}\\ \cline{4-15}
+					\multicolumn{3}{c|}{} & \multicolumn{12}{c|}{Natężenie opraw oświetleniowych} \\ \cline{2-15}
+					\multicolumn{1}{c|}{}&\multicolumn{2}{c|}{Bez oświetlenia}& 10&20&30&10&20&30 & 10&20&30&10&20&30\\ \hline
+					Słonecznie & \checkmark & \checkmark & \checkmark & \checkmark &&x&x&x&&&&x&x&x\\ \hline
+					Częściowe zachmurzenie  & \checkmark & \checkmark & \checkmark & \checkmark &&&&&&&&&&  \\ \hline
+					Całkowite zachmurzenie  & \checkmark & \checkmark & \checkmark & \checkmark&&&&&&&&&& \\ \hline
+					\multicolumn{1}{c|}{}& Luty & Maj & \multicolumn{3}{c|}{Luty} & \multicolumn{3}{c|}{Maj} &  \multicolumn{3}{c|}{Luty} & \multicolumn{3}{c|}{Maj}\\ \cline{2-15}
+					
+				\end{tabular}
+			\end{center}
+		\end{table}
+		
+		
+		\item Zbiorcze zestawienie i analiza otrzymanych wyników 
+		\item Porównanie rezultatów z rzeczywistymi badaniami
+		\item Wnioski i podsumowanie
+		
+	\end{enumerate}
 	
-	\section{Pytania i wątpliwości}
-	\label{sec:pytania_watpliwosci}
-
+	\section{Przegląd literatury}
+	\label{sec:przeglad_literatury}
+	\begin{thebibliography}{7}
+		\bibitem{1}
+		D.Heim, A. Kujawski, \textit{Rozkład natężenia oświetlenia dziennego dla prostych struktur zabudowy}
+		\bibitem{2}
+		K. Błażejczyk et al., \textit{Seasonal and regional differences in lighting conditions and their influence on melatonin secretion}, Quaestiones Geographicae, 33(3), 2014, 17--25
+		\bibitem{3}
+		M. Ayoub, \textit{A review on light transport algorithms and simulation tools to model daylighting inside buildings}, Solar Energy, 198, 2020, 623--642
+		\bibitem{4}
+		L. Bellia, F. Fragliasso, \textit{Automated daylight-linked control systems performance with illuminance sensors for side-lit offices in the Mediterranean area}, Automation in Construction, 100 , 2019, 145--162
+		\bibitem{5}
+		R. Southall, F. Biljecki, \textit{The VI-Suite: a set of environmental analysis tools with geospatial data applications}, Open Geospatial Data, Software and Standards, 2017, 2--23
+		\bibitem{6}
+		\textit{Recommended Light Levels (Illuminance) for Outdoor and Indoor Venues}
+		\bibitem{7}
+		V. Logar, Z. Kristl, I. Skrjanc, \textit{Using a fuzzy black-box model to estimate the indoor illuminance in buildings}, Energy and Buildings, 70, 2014, 343--351
+		\bibitem{8}
+		Jerzy Wójcik Architekt IARP, "Szkoły podstawowe,szkoły średnie. Technologia obiektów", 28.10.2014
+		\bibitem{9}
+		http://www.instalacjebudowlane.pl/9490-29-12421-oswietlenie-led-w-szkolach--normy-i-rozwiazania-praktyczne.html
+		\bibitem{10}
+		Dr Ryan Southall, School of Art, Design \& Media - University of Brighton, Simulations and Visualisations with the VI-Suite - For VI-Suite Version 0.4
+		
+	\end{thebibliography}
 	
 \end{document}
