@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.4)  15 MAY 2020 19:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.4)  16 MAY 2020 11:10
 entering extended mode
 **./prezentacja_1.tex
 (prezentacja_1.tex
@@ -231,7 +231,7 @@ Here is how much of TeX's memory you used:
  18306 multiletter control sequences out of 15000+200000
  545228 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,9n,31p,485b,330s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,9n,31p,485b,331s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\
 2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Patrycja\AppData\
@@ -247,7 +247,7 @@ atrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.p
 fb><C:/Users/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Users/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on prezentacja_1.pdf (3 pages, 121455 bytes).
+Output written on prezentacja_1.pdf (3 pages, 123635 bytes).
 PDF statistics:
  252 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
