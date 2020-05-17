@@ -1,11 +1,12 @@
 \documentclass[a4paper,12pt]{article}
-\usepackage[polish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage[polish]{babel}
 \usepackage[top=1.5cm, bottom=2.0cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{indentfirst}
 \usepackage{enumerate}
-\usepackage{amssymb}
+\usepackage{graphicx}
 
 
 
@@ -23,7 +24,107 @@
 	
 	Pomiar natężenia światła, czyli gęstości strumienia świetlnego padającego na daną powierzchnię, którego jednostką w układzie SI jest luks [lx], zostanie wykonany w różnych miejscach zamodelowanego pomieszczenia. Otrzymane wyniki zostaną poddane analizie, mającej na celu określenie wpływu warunków pogodowych, konfiguracji opraw oświetleniowych oraz mocy świecenia opraw oświetleniowych na przebieg symulacji.  
 	
-	\section{Parametry modelu}
+
+	\section{Potrzebne parametry do opisu modelu}
+	 \label{sec:opis_modelu}
+
+	\subsection{Jednostka natężenia}
+	\label{sec:jednostka_natezenia}
+
+	Do scharakteryzowania oświetlenia powierzchni, na którą pada strumien światła przyjmujemy natężenie oświetlenia będącą odpowiednikiem natężenia naprominiowania (irradiancji). Natężenia oświetlenia to nic innego jak gęstość strumienia świtlnego padającego na daną powierzchnię, równa granicy ilorazu strumienia świetlnego $\phi$ padającego na powierzchnię i pola $S$ tej powierzchni, przy $S$ dążącym do zera:
+	$$E_{v}=\frac{d \Phi_{v}}{d S}$$
+	Jeżeli strumień świetlny pada równomiernie na całą powierzchnie, to:
+	$$E_{v}=\frac{\Phi_{v}}{S}$$
+Jednostką natężenia oświetlenia w układzie SI jest luks (lx) równy lumenowi na metr kwadratowy $(cd \cdot sr \cdot m^{2})$.
+	$$\left[E_{v}\right]=\frac{l m}{m^{2}}=l x$$
+	\newpage
+
+	\begin{figure}
+  		\centering
+    		\includegraphics[width=0.5\textwidth]{natezenie_grafika}
+		\caption{Graficzne przedstawienie jednostki natężenia oświetlenia.}
+	\end{figure}
+
+	\subsection{Stosowane normy natężenia}
+	\label{sec:stosowane_normy}
+
+Natężenie oświetlenia zostało określone przez normę PN-EN 12464-1:2012. \newline Wymagania oświetleniowe wynikają z uwzględnienia trzech podstawowych potrzeb człowieka:
+	\begin{itemize}
+		\item wygody widzenia – spostrzeganie jest sprawne, pozbawione ryzyka, nie prowadzi do odczucia niewygody i nadmiernego zmęczenia,
+		\item wydolności wzrokowej – zadania wzrokowe można wykonać w trudnych warunkach i w dłuższych okresach czasu,
+		\item względów bezpieczeństwa.
+	\end{itemize}
+	
+Do podstawowych parametrów otoczenia świetlnego wliczających w to światło sztuczne jak i dzienne, zalicza się:
+	\begin{itemize}
+		\item rozkład luminancji w otoczeniu,
+		\item natężenie oświetlenia na polu pracy i w jego otoczeniu,
+		\item kierunek światła, oświetlenie w przestrzeni wnętrza,
+		\item zmienność światła (poziom i barwa światła),
+		\item olśnienie (przeszkadzające, przykre i odbiciowe),
+		\item oddawanie barw i barwy postrzeganej
+		\item migotanie światła i efekty stroboskopowe.
+	\end{itemize}
+
+Ze względu na wygodę widzenia powinno unikać się we wnętrzach wysokich luminancji, które mogłyby spowodować wzrost olśnienia, czy wysokich kontarstów przyczyniających się do zmęczenie oczu. Niskie luminancje czy niskie kontrasty sprawiają, że środowisko pracy staje się monotonne.
+\newpage
+W normie przyjęto, że wymagane natężenie oświetlenia w celu dostrzeżenia rysów ludzkiej twarzy w normalnych warunkach oświetleniowych, powinno być nie mniejsze niż 20 lx i jest to najmniejsze natężenie oświetlenia wymieniane przez normę. W typowych pracach biurowych, takich jak: pisanie ręczne, pisanie na maszynie, czytanie, obsługiwanie klawiatury wymagane jest natężenie oświetlenia 500 lx, dla prac precyzyjnych przewyższa 1000 lx. W słoneczny letni dzień natężenie oświetlenia w miejscach niezacienionych osiąga wartość 100.000 lx.\\
+
+\noindent Według normy PN-EN 12 464-1: 2004 zalecane natężenie oświetlenia:
+	\begin{center}
+		\begin{table}[!h]
+        		\centering     
+			\begin{tabular}{|p{0.6\textwidth}|p{0.1\textwidth}|}
+				\hline 
+				rozpoznanie rysów twarzy & 20 lx \\
+				\hline 
+				wykonywanie prostych czynności  & 50 lx \\
+				\hline 
+				obsługa komputera, prace biurowe & 500 lx \\
+				\hline 
+				montaż precyzyjny, mikromechanika, zakład jubilerski   & 1000 lx \\
+ 				\hline
+			\end{tabular}     
+       		 \end{table}
+	\end{center}
+Wartości orientacyjne zależne od różnych czynników, np.: pory roku i dnia, stopnia zachmurzenie czy czystości powietrza):
+	\begin{center}
+		\begin{table}[!h]
+        		\centering     
+			\begin{tabular}{|p{0.75\textwidth}|p{0.1\textwidth}|}
+				\hline 
+				 oświetlenie powierzchni ziemi przez Księżyc w pełni w pogodną noc & 0.2 lx \\
+				\hline 
+				oświetlenie uliczne w nocy  & 5-10 lx \\
+				\hline 
+				pomieszczenie od zacienionej strony w środku dnia & 300 lx \\
+				\hline 
+				oświetlenie słoneczne terenu na zewnątrz (zachmurzone niebo)   & 5000 lx \\
+ 				\hline
+			\end{tabular}     
+       		 \end{table}
+	\end{center}
+
+	\subsection{Oświetelenie w szkołach}
+	\label{sec:oswietlenie_w_szkolach}
+
+Oświetlenie sali lekcyjnej powinno zapewniać wygodę widzenia oraz poprawiać zdolność do rozróżniania szczegółów bez nadmiernego zmęczenia wzroku.  Odgrywa istotną rolę w kształceniu uczniów przyczyniając się do efektywnej i przyjemnej pracy. Wymiary standardowej sali lekcyjnej zawierają sie między $55m^{2}$  a $62m^{2}$ dla 30 uczniów. Stosunek między powierzchnią okien a podłogą powinien wynosić 1:4 do 1:5. 
+
+Natężenie oświetlenia w salach lekcyjnych musi wynosić 300 lx natomiast powinno być wysokie (500 lx) tam, gdzie wykonywane są głównie "zadania wzrokowe" - czytanie i pisanie ręczne. Preferowanym rodzajem źródeł światła do oświetlania pomieszczeń w szkole (klas, korytarzy, szatni) są świetlówki. W warunkach stałego rozmieszczenia ławek w klasach zalecane są świetlówki liniowe. Wykorzystywane są różne odmiany świetlówkowych opraw oświetleniowych - wbudowywane w sufit, nasufitowe i do podwieszania pod sufitem.
+
+Uwzględniając konserwacje przy projektowaniu i instalacji systemów oświetlenia tak aby najdłużej eksploatować oprawy oświetleniowe przy zachowaniu właściwych parametrów światła stosuje się lampy LED.
+	\newpage
+
+	\section{Implementacja}
+	 \label{sec:implementacja}
+
+	\subsection{Technologie i narzędzia}
+	\label{sec:technologie_i_narzedzia}
+
+Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty pragram \emph{Blender}. Aby zobrazować natężenie światła w określonych miejsca, zbadać wpływ warunków pogodowych i ustawienia lamp wykorzystano rozszerzenie \emph{VI-Suite}. Analiza oświetlenia została uzyskana poprzez dwa komponenty \emph{VI-Suite}: \emph{LiVi}, który spełnia funkcje pre/post-procesora pakietu do analizy oświetlenia - \emph{Radiance} oraz \emph{EnVi}, który zapewnia takie same możliwości dla programu do symulacji poboru energii (między innymi oświetlenia) -  \emph{EnergyPlus}.
+
+
+	\subsection{Parametry modelu}
 	\label{sec:parametry_modelu}
 	
 	\begin{itemize}
@@ -66,7 +167,13 @@
 		\end{itemize}		
 		
 	\end{itemize}
-	
+
+	\section{Rezultaty}
+	\label{sec:rezultaty}
+
+	\section{Podsumowanie}
+	\label{sec:podsumowanie}		
+
 	
 	\section{Plan działania}
 	\label{sec:plan_dzialania}
