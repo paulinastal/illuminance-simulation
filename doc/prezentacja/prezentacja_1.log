@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.4)  18 MAY 2020 13:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.4)  19 MAY 2020 11:47
 entering extended mode
 **./prezentacja_1.tex
 (prezentacja_1.tex
@@ -258,66 +258,175 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
  []
 
 [3]
-<konfiguracja_oświetlenia_1.png, id=26, 943.72575pt x 447.47176pt>
+<node_editor.png, id=26, 621.522pt x 469.15276pt>
+File: node_editor.png Graphic file (type png)
+<use node_editor.png>
+Package pdftex.def Info: node_editor.png  used on input line 128.
+(pdftex.def)             Requested size: 364.19667pt x 274.91498pt.
+ [4 <./node_editor.png>]
+<konfiguracja_oświetlenia_1.png, id=31, 943.72575pt x 447.47176pt>
 File: konfiguracja_oświetlenia_1.png Graphic file (type png)
 <use konfiguracja_oświetlenia_1.png>
 Package pdftex.def Info: konfiguracja_oświetlenia_1.png  used on input line 16
-1.
+8.
 (pdftex.def)             Requested size: 455.24411pt x 215.85597pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<konfiguracja_oświetlenia_2.png, id=27, 943.72575pt x 423.38174pt>
+<konfiguracja_oświetlenia_2.png, id=32, 943.72575pt x 423.38174pt>
 File: konfiguracja_oświetlenia_2.png Graphic file (type png)
 <use konfiguracja_oświetlenia_2.png>
-Package pdftex.def Info: konfiguracja_oświetlenia_2.png  used on input line 17
-7.
+Package pdftex.def Info: konfiguracja_oświetlenia_2.png  used on input line 18
+4.
 (pdftex.def)             Requested size: 455.24411pt x 204.23518pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[4] [5 <./konfiguracja_oświetlenia_1.png> <./konfiguracja_oświetlenia_2.png>]
+[5 <./konfiguracja_oświetlenia_1.png>]
+<Wykresy/bez_oswietlenia_1.pdf, id=36, 501.37814pt x 278.66107pt>
+File: Wykresy/bez_oswietlenia_1.pdf Graphic file (type pdf)
+<use Wykresy/bez_oswietlenia_1.pdf>
+Package pdftex.def Info: Wykresy/bez_oswietlenia_1.pdf  used on input line 206.
 
-Overfull \hbox (56.29228pt too wide) in paragraph at lines 212--223
+(pdftex.def)             Requested size: 455.24411pt x 253.02069pt.
+<Wykresy/oswietlenie_1_slonecznie.pdf, id=37, 496.85625pt x 316.18124pt>
+File: Wykresy/oswietlenie_1_slonecznie.pdf Graphic file (type pdf)
+<use Wykresy/oswietlenie_1_slonecznie.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_1_slonecznie.pdf  used on input li
+ne 216.
+(pdftex.def)             Requested size: 455.24411pt x 289.70343pt.
+ [6 <./konfiguracja_oświetlenia_2.png> <./Wykresy/bez_oswietlenia_1.pdf>]
+<Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf, id=59, 496.85625pt x 318.188
+75pt>
+File: Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf Graphic file (type pdf)
+<use Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf  used
+ on input line 223.
+(pdftex.def)             Requested size: 455.24411pt x 291.54282pt.
+<Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf, id=60, 496.85625pt x 316.181
+24pt>
+File: Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf Graphic file (type pdf)
+<use Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf  used
+ on input line 230.
+(pdftex.def)             Requested size: 455.24411pt x 289.70343pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Wykresy/oswietlenie_2_slonecznie.pdf, id=61, 496.85625pt x 316.18124pt>
+File: Wykresy/oswietlenie_2_slonecznie.pdf Graphic file (type pdf)
+<use Wykresy/oswietlenie_2_slonecznie.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_2_slonecznie.pdf  used on input li
+ne 240.
+(pdftex.def)             Requested size: 455.24411pt x 289.70343pt.
+<Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf, id=62, 496.85625pt x 318.188
+75pt>
+File: Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf Graphic file (type pdf)
+<use Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf  used
+ on input line 247.
+(pdftex.def)             Requested size: 455.24411pt x 291.54282pt.
+<Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf, id=63, 496.85625pt x 316.181
+24pt>
+File: Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf Graphic file (type pdf)
+<use Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf  used
+ on input line 254.
+(pdftex.def)             Requested size: 455.24411pt x 289.70343pt.
+<Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf, id=64, 496.85625pt x 31
+4.17375pt>
+File: Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf Graphic file (type 
+pdf)
+<use Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf 
+ used on input line 264.
+(pdftex.def)             Requested size: 455.24411pt x 287.86404pt.
+<Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf, id=65, 496.
+85625pt x 330.23375pt>
+File: Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf Graphic
+ file (type pdf)
+<use Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfi
+guracje.pdf  used on input line 271.
+(pdftex.def)             Requested size: 455.24411pt x 302.57913pt.
+<Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf, id=66, 496.
+85625pt x 330.23375pt>
+File: Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf Graphic
+ file (type pdf)
+<use Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf>
+Package pdftex.def Info: Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfi
+guracje.pdf  used on input line 278.
+(pdftex.def)             Requested size: 455.24411pt x 302.57913pt.
+[7 <./Wykresy/oswietlenie_1_slonecznie.pdf>]
+
+LaTeX Warning: Text page 8 contains only floats.
+
+[8 <./Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf> <./Wykresy/oswietlenie_
+1_calkowite_zachmurzenie.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Wykresy/oswietlenie_1_calkowite_zachmurzen
+ie.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+>]
+
+LaTeX Warning: Text page 9 contains only floats.
+
+[9 <./Wykresy/oswietlenie_2_slonecznie.pdf> <./Wykresy/oswietlenie_2_czesciowe_
+zachmurzenie.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Wykresy/oswietlenie_2_czesciowe_zachmurzen
+ie.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+
+>]
+Overfull \vbox (25.53168pt too high) has occurred while \output is active []
+
+
+[10 <./Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf> <./Wykresy/oswietlenie
+_slonecznie_rozne_konfiguracje.pdf
+
+pdfTeX warning: pdflatex.exe (file ./Wykresy/oswietlenie_slonecznie_rozne_konfi
+guracje.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+>]
+Overfull \hbox (56.29228pt too wide) in paragraph at lines 302--313
  [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+[11 <./Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 []\T1/cmr/m/n/12 http://www.instalacjebudowlane.pl/9490-29-12421-oswietlenie-le
 d-w-szkolach--
  []
 
-[6] [7] (prezentacja_1.aux) ) 
+[12 <./Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf>]
+[13] (prezentacja_1.aux) ) 
 Here is how much of TeX's memory you used:
- 3206 strings out of 480931
- 44626 string characters out of 2898389
- 300474 words of memory out of 3000000
- 19044 multiletter control sequences out of 15000+200000
+ 3289 strings out of 480931
+ 48448 string characters out of 2898389
+ 299614 words of memory out of 3000000
+ 19116 multiletter control sequences out of 15000+200000
  546003 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,9n,31p,635b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Patrycja\AppData\Local\MiK
-TeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Patrycja\AppD
-ata\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\
-Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.p
-k> <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecrm1200.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecbx1728.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Patrycja\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Patrycja/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users
-/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-8.pfb><C:/Users/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Users/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Patrycja/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Patrycja/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on prezentacja_1.pdf (7 pages, 251201 bytes).
+ <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk
+/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Patrycja\AppData
+\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Pat
+rycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> 
+<C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
+ecrm1200.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecbx1728.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Patrycja/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Pa
+trycja/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb><C:/Users/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Users/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/Patrycja/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Patrycja/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on prezentacja_1.pdf (13 pages, 2536391 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
+ 542 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

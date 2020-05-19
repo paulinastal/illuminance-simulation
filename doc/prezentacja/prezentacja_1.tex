@@ -123,6 +123,13 @@ Uwzględniając konserwacje przy projektowaniu i instalacji systemów oświetlen
 
 Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty pragram \emph{Blender}. Aby zobrazować natężenie światła w określonych miejsca, zbadać wpływ warunków pogodowych i ustawienia lamp wykorzystano rozszerzenie \emph{VI-Suite}. Analiza oświetlenia została uzyskana poprzez dwa komponenty \emph{VI-Suite}: \emph{LiVi}, który spełnia funkcje pre/post-procesora pakietu do analizy oświetlenia - \emph{Radiance} oraz \emph{EnVi}, który zapewnia takie same możliwości dla programu do symulacji poboru energii (między innymi oświetlenia) -  \emph{EnergyPlus}.
 
+	\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{node_editor}
+	\caption{Node Editor}
+	\label{node_editor}
+	\end{figure}
+
 
 	\subsection{Parametry modelu}
 	\label{sec:parametry_modelu}
@@ -190,11 +197,94 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 
 	\section{Rezultaty}
 	\label{sec:rezultaty}
+	
+	\subsection{Brak oświetlenia}
+	\label{sec:brak_oswietlenia}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/bez_oswietlenia_1.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej bez włączonego oświetlenia dla różnych warunków pogodowych }
+		\label{bez_oswietlenia_1}
+	\end{figure}
 
+	\subsection{Konfiguracja opraw oświetleniowych 1}
+	\label{sec:oswietlenie_1}
+
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_1_slonecznie.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej w słoneczny dzień przy włączonym oświetleniu dla konfiguracji opraw oświetleniowych nr 1 i różnej wartości radiancji}
+		\label{oswietlenie_1_slonecznie}
+	\end{figure}
+
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy częściowym zachmurzeniu  oraz włączonym oświetleniu dla konfiguracji opraw oświetleniowych nr 1 i różnej wartości radiancji}
+		\label{oswietlenie_1_czesciowe_zachmurzenie}
+	\end{figure}
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy całkowitym zachmurzeniu  oraz włączonym oświetleniu dla konfiguracji opraw oświetleniowych nr 1 i różnej wartości radiancji}
+		\label{oswietlenie_1_calkowite_zachmurzenie}
+	\end{figure}
+
+	\subsection{Konfiguracja opraw oświetleniowych 2}
+	\label{sec:oswietlenie_2}
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_2_slonecznie.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej w słoneczny dzień przy włączonym oświetleniu dla konfiguracji opraw oświetleniowych nr 2 i różnej wartości radiancji}
+		\label{oswietlenie_2_slonecznie}
+	\end{figure}
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy częściowym zachmurzeniu  oraz włączonym oświetleniu dla konfiguracji opraw oświetleniowych nr 2 i różnej wartości radiancji}
+		\label{oswietlenie_2_czesciowe_zachmurzenie}
+	\end{figure}
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy całkowitym zachmurzeniu  oraz włączonym oświetleniu dla konfiguracji opraw oświetleniowych nr 2 i różnej wartości radiancji}
+		\label{oswietlenie_2_calkowite_zachmurzenie}
+	\end{figure}
+
+	\subsection{Zestawienie wybranych wyników}
+	\label{sec:zestawienie_wybranych_wynikow}
+	
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej w słoneczny dzień dla wybranych konfiguracji opraw oświetleniowych i wartości radiancji}
+		\label{oswietlenie_slonecznie_rozne_konfiguracje}
+	\end{figure}
+
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy częściowym zachmurzeniu  oraz włączonym oświetleniu dla wybranych konfiguracji opraw oświetleniowych i różnej wartości radiancji}
+		\label{oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje}
+	\end{figure}
+
+	\begin{figure}[!ht]
+		\centering
+		\includegraphics[width=\linewidth]{Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf}
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy całkowitym zachmurzeniu  oraz włączonym oświetleniu dla wybranych konfiguracji opraw oświetleniowych i różnej wartości radiancji}
+		\label{oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje}
+	\end{figure}	
+
+	
+	\newpage
 	\section{Podsumowanie}
 	\label{sec:podsumowanie}		
 
-	
 	\section{Plan działania}
 	\label{sec:plan_dzialania}
 	\begin{enumerate}
