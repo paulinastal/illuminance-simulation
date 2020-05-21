@@ -31,7 +31,7 @@
 	 \label{sec:opis_modelu}
 
 	\subsection{Jednostka natężenia}
-	\label{sec:jednostka_natezenia}
+	\label{subsec:jednostka_natezenia}
 
 	Do scharakteryzowania oświetlenia powierzchni, na którą pada strumien światła przyjmujemy natężenie oświetlenia będącą odpowiednikiem natężenia naprominiowania (irradiancji). Natężenia oświetlenia to nic innego jak gęstość strumienia świtlnego padającego na daną powierzchnię, równa granicy ilorazu strumienia świetlnego $\phi$ padającego na powierzchnię i pola $S$ tej powierzchni, przy $S$ dążącym do zera:
 	$$E_{v}=\frac{d \Phi_{v}}{d S}$$
@@ -48,7 +48,7 @@ Jednostką natężenia oświetlenia w układzie SI jest luks (lx) równy lumenow
 	\end{figure}
 
 	\subsection{Stosowane normy natężenia}
-	\label{sec:stosowane_normy}
+	\label{subsec:stosowane_normy}
 
 Natężenie oświetlenia zostało określone przez normę PN-EN 12464-1:2012. \newline Wymagania oświetleniowe wynikają z uwzględnienia trzech podstawowych potrzeb człowieka:
 	\begin{itemize}
@@ -108,7 +108,7 @@ Wartości orientacyjne zależne od różnych czynników, np.: pory roku i dnia, 
 	\end{center}
 
 	\subsection{Oświetelenie w szkołach}
-	\label{sec:oswietlenie_w_szkolach}
+	\label{subsec:oswietlenie_w_szkolach}
 
 Oświetlenie sali lekcyjnej powinno zapewniać wygodę widzenia oraz poprawiać zdolność do rozróżniania szczegółów bez nadmiernego zmęczenia wzroku.  Odgrywa istotną rolę w kształceniu uczniów przyczyniając się do efektywnej i przyjemnej pracy. Wymiary standardowej sali lekcyjnej zawierają sie między $55m^{2}$  a $62m^{2}$ dla 30 uczniów. Stosunek między powierzchnią okien a podłogą powinien wynosić 1:4 do 1:5. 
 
@@ -121,7 +121,7 @@ Uwzględniając konserwacje przy projektowaniu i instalacji systemów oświetlen
 	 \label{sec:implementacja}
 
 	\subsection{Technologie i narzędzia}
-	\label{sec:technologie_i_narzedzia}
+	\label{subsec:technologie_i_narzedzia}
 
 Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty pragram \emph{Blender}. Aby zobrazować natężenie światła w określonych miejsca, zbadać wpływ warunków pogodowych i ustawienia lamp wykorzystano rozszerzenie \emph{VI-Suite}. Analiza oświetlenia została uzyskana poprzez dwa komponenty \emph{VI-Suite}: \emph{LiVi}, który spełnia funkcje pre/post-procesora pakietu do analizy oświetlenia - \emph{Radiance} oraz \emph{EnVi}, który zapewnia takie same możliwości dla programu do symulacji poboru energii (między innymi oświetlenia) -  \emph{EnergyPlus}.
 
@@ -149,7 +149,7 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 
 
 	\subsection{Parametry modelu}
-	\label{sec:parametry_modelu}
+	\label{subsec:parametry_modelu}
 	
 	\begin{itemize}
 		\item Model sali lekcyjnej
@@ -215,7 +215,7 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 	\label{sec:rezultaty}
 	
 	\subsection{Symulacja dla całego roku bez oświetlenia}
-	\label{sec:cały_rok}
+	\label{subsec:caly_rok}
 	
 	\begin{figure}[ht!]
 		\includegraphics[scale=0.8]{Wykresy/caly_rok.pdf}
@@ -225,7 +225,7 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 	\end{figure}
 	
 	\subsection{Brak oświetlenia}
-	\label{sec:brak_oswietlenia}
+	\label{subsec:brak_oswietlenia}
 	
 	\begin{figure}[ht!]
 		\centering
@@ -235,7 +235,7 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 	\end{figure}
 
 	\subsection{Konfiguracja opraw oświetleniowych 1}
-	\label{sec:oswietlenie_1}
+	\label{subsec:oswietlenie_1}
 
 	\begin{figure}[ht!]
 		\centering
@@ -249,14 +249,17 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 		\includegraphics[scale=0.8]{Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf}
 		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy częściowym zachmurzeniu  oraz włączonym oświetleniu dla konfiguracji opraw oświetleniowych nr 1 i różnej wartości radiancji}
 		\label{oswietlenie_1_czesciowe_zachmurzenie}
-	\vspace{3cm}
+	\end{figure}
+
+	\begin{figure}[!ht]
 		\includegraphics[scale=0.8]{Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf}
 		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy całkowitym zachmurzeniu  oraz włączonym oświetleniu dla konfiguracji opraw oświetleniowych nr 1 i różnej wartości radiancji}
 		\label{oswietlenie_1_calkowite_zachmurzenie}
 	\end{figure}
+	\newpage
 
 	\subsection{Konfiguracja opraw oświetleniowych 2}
-	\label{sec:oswietlenie_2}
+	\label{subsec:oswietlenie_2}
 	
 	\begin{figure}[!ht]
 		\centering
@@ -279,9 +282,9 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 		\label{oswietlenie_2_calkowite_zachmurzenie}
 	\end{figure}
 
-	\newpage
+	\clearpage
 	\subsection{Zestawienie wybranych wyników}
-	\label{sec:zestawienie_wybranych_wynikow}
+	\label{subsec:zestawienie_wybranych_wynikow}
 	
 	\begin{figure}[!ht]
 		\centering
@@ -303,7 +306,6 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej przy całkowitym zachmurzeniu  oraz włączonym oświetleniu dla wybranych konfiguracji opraw oświetleniowych i różnej wartości radiancji}
 		\label{oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje}
 	\end{figure}	
-	\clearpage
 
 
 	\begin{figure}[!ht]
