@@ -148,7 +148,6 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 
 
 
-
 	\subsection{Parametry modelu}
 	\label{sec:parametry_modelu}
 	
@@ -214,6 +213,16 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 
 	\section{Rezultaty}
 	\label{sec:rezultaty}
+	
+	\subsection{Symulacja dla całego roku bez oświetlenia}
+	\label{sec:cały_rok}
+	
+	\begin{figure}[ht!]
+		\includegraphics[scale=0.8]{Wykresy/caly_rok.pdf}
+		\centering
+		\caption{Natężenie oświetlania powierzchni biurka w sali lekcyjnej bez włączonego oświetlenia dla wszystkich miesięcy}
+		\label{fig:caly_rok}
+	\end{figure}
 	
 	\subsection{Brak oświetlenia}
 	\label{sec:brak_oswietlenia}
@@ -310,7 +319,7 @@ Do zamodelowania sali lekcyjnej jak i do wyrenderowania obrazów został użyty 
 		\caption{Wpływ zmiany warunków pogodowych przy stałym natężeniu dla miesiąca luty - godzina 13:00}
 		\label{fig:wplyw_warunkow_pogodowych_symulacja}
 	\end{figure}
-	\clearpage
+	\clearpage	
 	
 	\section{Podsumowanie}
 	\label{sec:podsumowanie}	
@@ -353,22 +362,6 @@ Godzina                                 & 8                                     
 		\item Sporządzenie schematu w Node Edytorze \checkmark
 		\item Dobór parametrów przeprowadzanych symulacji \checkmark
 		\item Przeprowadzenie symulacji przy użyciu pakietu \emph{VI-Suite} i zewnętrznej aplikacji \emph{Radiance} dla różnych konfiguracji wybranych parametrów:
-		
-		
-		\begin{table}[hbp!]
-				\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
-					\cline{4-15}
-					\multicolumn{3}{c|}{}&\multicolumn{6}{c|}{Z oświetleniem (1)} & \multicolumn{6}{c|}{Z oświetleniem (2)}\\ \cline{4-15}
-					\multicolumn{3}{c|}{} & \multicolumn{12}{c|}{Radiancja $[W/sr/m^2]$} \\ \cline{2-15}
-					\multicolumn{1}{c|}{}&\multicolumn{2}{c|}{Bez oświetlenia}& 10&15&20&10&15&20 & 10&15&20&10&15&20\\ \hline
-					Słonecznie & \checkmark & \checkmark & \checkmark & \checkmark &\checkmark&x&x&x&\checkmark&\checkmark&\checkmark&x&x&x\\ \hline
-					Częściowe zachmurzenie  & \checkmark & \checkmark & \checkmark & \checkmark &\checkmark& \checkmark & \checkmark & \checkmark &\checkmark&\checkmark&\checkmark&\checkmark&\checkmark&\checkmark  \\ \hline
-					Całkowite zachmurzenie  & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark &\checkmark&\checkmark&\checkmark&\checkmark&\checkmark&\checkmark \\ \hline
-					\multicolumn{1}{c|}{}& Luty & Maj & \multicolumn{3}{c|}{Luty} & \multicolumn{3}{c|}{Maj} &  \multicolumn{3}{c|}{Luty} & \multicolumn{3}{c|}{Maj}\\ \cline{2-15}
-				\end{tabular}
-		\end{table}
-		
-		
 		\item Zbiorcze zestawienie i analiza otrzymanych wyników 
 		\item Porównanie rezultatów z rzeczywistymi badaniami
 		\item Wnioski i podsumowanie

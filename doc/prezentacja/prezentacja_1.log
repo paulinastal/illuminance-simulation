@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.4)  19 MAY 2020 12:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.4)  21 MAY 2020 17:29
 entering extended mode
 **./prezentacja_1.tex
 (prezentacja_1.tex
@@ -151,291 +151,37 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
-("C:\Users\Patrycja\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3bac
-kend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count180
-\l__pdf_internal_box=\box45
-) (prezentacja_1.aux)
-\openout1 = `prezentacja_1.aux'.
+("C:\Users\Patrycja\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor\xcolor.s
+ty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(42.67912pt, 745.46222pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=455.24411pt
-* \textheight=745.46222pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-66.59087pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-("C:\Users\Patrycja\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
-p-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count181
-\scratchdimen=\dimen150
-\scratchbox=\box46
-\nofMPsegments=\count182
-\nofMParguments=\count183
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count184
-\MPscratchDim=\dimen151
-\MPnumerator=\count185
-\makeMPintoPDFobject=\count186
-\everyMPtoPDFconversion=\toks22
+("C:\Users\Patrycja\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\co
+lor.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-("C:\Users\Patrycja\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\ep
-stopdf-base.sty"
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 
-("C:\Users\Patrycja\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.f
-d"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
+! LaTeX Error: File `colortbl.sty' not found.
 
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
-("C:\Users\Patrycja\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.f
-d"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.268 \long
+           \def\@secondoffive#1#2#3#4#5{#2}
+*** (cannot \read from terminal in nonstop modes)
 
-{C:/Users/Patrycja/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<natezenie_grafika.png, id=16, 336.25626pt x 306.14375pt>
-File: natezenie_grafika.png Graphic file (type png)
-<use natezenie_grafika.png>
-Package pdftex.def Info: natezenie_grafika.png  used on input line 44.
-(pdftex.def)             Requested size: 227.62206pt x 207.2407pt.
-
-[2 <./natezenie_grafika.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-[3]
-<node_editor.png, id=26, 621.522pt x 469.15276pt>
-File: node_editor.png Graphic file (type png)
-<use node_editor.png>
-Package pdftex.def Info: node_editor.png  used on input line 128.
-(pdftex.def)             Requested size: 364.19667pt x 274.91498pt.
-<wynik_symulacji.png, id=27, 794.36775pt x 539.616pt>
-File: wynik_symulacji.png Graphic file (type png)
-<use wynik_symulacji.png>
-Package pdftex.def Info: wynik_symulacji.png  used on input line 135.
-(pdftex.def)             Requested size: 364.19667pt x 247.40298pt.
-<podglad_symulacji.png, id=28, 618.51076pt x 420.97275pt>
-File: podglad_symulacji.png Graphic file (type png)
-<use podglad_symulacji.png>
-Package pdftex.def Info: podglad_symulacji.png  used on input line 142.
-(pdftex.def)             Requested size: 364.19667pt x 247.88358pt.
- [4 <./node_editor.png>] [5 <./wynik_symulacji.png> <./podglad_symulacji.png>]
-<konfiguracja_oświetlenia_1.png, id=36, 943.72575pt x 447.47176pt>
-File: konfiguracja_oświetlenia_1.png Graphic file (type png)
-<use konfiguracja_oświetlenia_1.png>
-Package pdftex.def Info: konfiguracja_oświetlenia_1.png  used on input line 18
-4.
-(pdftex.def)             Requested size: 455.24411pt x 215.85597pt.
-<konfiguracja_oświetlenia_2.png, id=37, 943.72575pt x 423.38174pt>
-File: konfiguracja_oświetlenia_2.png Graphic file (type png)
-<use konfiguracja_oświetlenia_2.png>
-Package pdftex.def Info: konfiguracja_oświetlenia_2.png  used on input line 20
-0.
-(pdftex.def)             Requested size: 455.24411pt x 204.23518pt.
- [6 <./konfiguracja_oświetlenia_1.png> <./konfiguracja_oświetlenia_2.png>]
-<Wykresy/bez_oswietlenia_1.pdf, id=41, 501.37814pt x 278.66107pt>
-File: Wykresy/bez_oswietlenia_1.pdf Graphic file (type pdf)
-<use Wykresy/bez_oswietlenia_1.pdf>
-Package pdftex.def Info: Wykresy/bez_oswietlenia_1.pdf  used on input line 222.
-
-(pdftex.def)             Requested size: 455.24411pt x 253.02069pt.
-<Wykresy/oswietlenie_1_slonecznie.pdf, id=42, 496.85625pt x 316.18124pt>
-File: Wykresy/oswietlenie_1_slonecznie.pdf Graphic file (type pdf)
-<use Wykresy/oswietlenie_1_slonecznie.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_1_slonecznie.pdf  used on input li
-ne 232.
-(pdftex.def)             Requested size: 455.24411pt x 289.70343pt.
-<Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf, id=43, 496.85625pt x 318.188
-75pt>
-File: Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf Graphic file (type pdf)
-<use Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_1_czesciowe_zachmurzenie.pdf  used
- on input line 239.
-(pdftex.def)             Requested size: 455.24411pt x 291.54282pt.
-<Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf, id=44, 496.85625pt x 316.181
-24pt>
-File: Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf Graphic file (type pdf)
-<use Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf  used
- on input line 246.
-(pdftex.def)             Requested size: 455.24411pt x 289.70343pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Wykresy/oswietlenie_2_slonecznie.pdf, id=45, 496.85625pt x 316.18124pt>
-File: Wykresy/oswietlenie_2_slonecznie.pdf Graphic file (type pdf)
-<use Wykresy/oswietlenie_2_slonecznie.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_2_slonecznie.pdf  used on input li
-ne 256.
-(pdftex.def)             Requested size: 455.24411pt x 289.70343pt.
-<Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf, id=46, 496.85625pt x 318.188
-75pt>
-File: Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf Graphic file (type pdf)
-<use Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf  used
- on input line 263.
-(pdftex.def)             Requested size: 455.24411pt x 291.54282pt.
-<Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf, id=47, 496.85625pt x 316.181
-24pt>
-File: Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf Graphic file (type pdf)
-<use Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_2_calkowite_zachmurzenie.pdf  used
- on input line 270.
-(pdftex.def)             Requested size: 455.24411pt x 289.70343pt.
-<Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf, id=48, 496.85625pt x 31
-4.17375pt>
-File: Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf Graphic file (type 
-pdf)
-<use Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf 
- used on input line 280.
-(pdftex.def)             Requested size: 455.24411pt x 287.86404pt.
-<Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf, id=49, 496.
-85625pt x 330.23375pt>
-File: Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf Graphic
- file (type pdf)
-<use Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_czesciowe_zachmurzenie_rozne_konfi
-guracje.pdf  used on input line 287.
-(pdftex.def)             Requested size: 455.24411pt x 302.57913pt.
-<Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf, id=50, 496.
-85625pt x 330.23375pt>
-File: Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf Graphic
- file (type pdf)
-<use Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf>
-Package pdftex.def Info: Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfi
-guracje.pdf  used on input line 294.
-(pdftex.def)             Requested size: 455.24411pt x 302.57913pt.
-[7 <./Wykresy/bez_oswietlenia_1.pdf>]
-
-LaTeX Warning: Text page 8 contains only floats.
-
-[8 <./Wykresy/oswietlenie_1_slonecznie.pdf> <./Wykresy/oswietlenie_1_czesciowe_
-zachmurzenie.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Wykresy/oswietlenie_1_czesciowe_zachmurzen
-ie.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
->]
-Overfull \vbox (41.87106pt too high) has occurred while \output is active []
-
-
-[9 <./Wykresy/oswietlenie_1_calkowite_zachmurzenie.pdf> <./Wykresy/oswietlenie_
-2_slonecznie.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Wykresy/oswietlenie_2_slonecznie.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
->]
-
-LaTeX Warning: Text page 10 contains only floats.
-
-[10 <./Wykresy/oswietlenie_2_czesciowe_zachmurzenie.pdf> <./Wykresy/oswietlenie
-_2_calkowite_zachmurzenie.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Wykresy/oswietlenie_2_calkowite_zachmurzen
-ie.pdf): PDF inclusion: multiple pdfs with page group included in a single page
-
->] [11 <./Wykresy/oswietlenie_slonecznie_rozne_konfiguracje.pdf> <./Wykresy/osw
-ietlenie_czesciowe_zachmurzenie_rozne_konfiguracje.pdf
-
-pdfTeX warning: pdflatex.exe (file ./Wykresy/oswietlenie_czesciowe_zachmurzenie
-_rozne_konfiguracje.pdf): PDF inclusion: multiple pdfs with page group included
- in a single page
->]
-Overfull \hbox (56.29228pt too wide) in paragraph at lines 318--329
- [] 
- []
-
-[12 <./Wykresy/oswietlenie_calkowite_zachmurzenie_rozne_konfiguracje.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 359--360
-[]\T1/cmr/m/n/12 http://www.instalacjebudowlane.pl/9490-29-12421-oswietlenie-le
-d-w-szkolach--
- []
-
-[13] (prezentacja_1.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 3305 strings out of 480931
- 48802 string characters out of 2898389
- 298631 words of memory out of 3000000
- 19132 multiletter control sequences out of 15000+200000
- 546003 words of font info for 62 fonts, out of 3000000 for 9000
+ 2677 strings out of 480931
+ 34868 string characters out of 2898389
+ 282705 words of memory out of 3000000
+ 18557 multiletter control sequences out of 15000+200000
+ 533400 words of font info for 26 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,9n,31p,635b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk
-/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Patrycja\AppData
-\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Pat
-rycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> 
-<C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecrm1200.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknapp
-en/ec/dpi600\ecbx1728.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\2.9\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Patrycja\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Patrycja/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Pa
-trycja/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><C:/Users/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Users/Patrycja/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Users/Patrycja/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Patrycja/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on prezentacja_1.pdf (13 pages, 2769295 bytes).
-PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 30i,0n,31p,240b,38s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
